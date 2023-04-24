@@ -1,0 +1,13 @@
+
+<h2>{{top10.title}}</h2>
+<div class="slider">
+<ul>
+    <li *ngFor="let peli of top10.peliculas">
+        <p>{{peli.title}}</p>
+        <img src="{{peli.src}}" alt="">
+</li>
+</ul>
+</div>
+
+
+<!-- .slice(0,10) -->

@@ -1,0 +1,21 @@
+ <!-- <ul>
+    <li *ngFor="let pelicula of peliculas">
+        <img src="{{pelicula.src}}">
+    </li>
+</ul>  -->
+
+
+
+<!-- <h2>{{films.title}}</h2> -->
+
+
+<h2>{{peliculas.title}}</h2>
+<div class='slider'>
+<ul>
+    
+    <li *ngFor="let pelicula of peliculas.peliculas.slice(0,10)">
+        {{pelicula.title}}<img src="{{pelicula.src}}">
+    </li>
+</ul>
+</div>
+
